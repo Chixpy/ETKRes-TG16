@@ -18,9 +18,28 @@ Rule #1: No filters to screenshots.
 
 All images in .png format at original resolution: 256x232
 
-### Front, Back, Spine, Manual, Ads, Reviews, Media, Other
+### Front, Back, Spine, Manual, Media, Maps, Reviews, Ads, Other
 
-Escaned .jpg; with a maximum of 2048x2048, don't enlarge artificially (if larger, we can resize it to 2048 the larger side, keeping aspect ratio and a quality of 90%). Trying not to do transformations and resave it. Lossless rotation or cropping allowed.
+Generally:
+
+  * Scanned .jpg images 
+  * Maximum of 2048px in its largest side, if its smaller don't scale it up.
+  * If it's larger than 2048px, it's best to crop (see below) before scaling it down to 2048. Keeping aspect ratio.
+  * Trying not to resave it many times. There are some transformations that can be done without lossing quality...
+
+For game's media (Front, Back, Spine, Manual and Media):
+
+  * Box Front, Back and Spine in separated images and cropped without any border. 
+  * Media: Whole cart, CD, etc. scanned and cropped without any border (if possible)
+
+For Magazine texts:
+
+  * Crop original page image to article text and game images, with a little border.
+
+For Maps (or magazine game guides):
+
+  * If it's a magazine game guide: Same as Magazine texts.
+  * If it's a digital map (made with screenshots or similar): Better in .png format and keep as is (do not remove author, or other info; and if it's bigger than 2048px keep the size too).
 
 ### Icons, Logos
 
